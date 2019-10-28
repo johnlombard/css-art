@@ -1,0 +1,147 @@
+body {
+    background-color: black;
+}
+
+.country {
+    background-color: red;
+    width: 600px;
+    height: 400px;
+    margin: auto;
+}
+
+.country__flag {
+    margin: auto;
+    width: 500px;
+    height: 300px;
+}
+
+/* Countries */
+
+.country__flag--Ireland {
+    background-color: rgb(0, 145,90);
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.country__flag--Nigeria {
+    background-color: rgb(0, 145,90);
+    display: flex;
+    justify-content: center;
+}
+
+.country__flag--Italy {
+    background-color: rgb(0, 145,90);
+    display: flex;
+    justify-content: flex-end;
+}
+
+.country__flag--Sweden {
+    background-color: rgb(0, 95, 154);
+    position: relative;
+}
+
+.country__flag--Greece {
+    background-color: rgb(0, 84, 162);
+    position: relative;
+}
+
+.country__flag--Japan {
+    background-color: white;
+    display: flex;
+}
+
+
+/* Columns */
+.col--white {
+    background-color: white;
+    height: 100%;
+    width: 33%;
+}
+
+.col--orange {
+    background-color: rgb(255, 123, 65);
+    height: 100%;
+    width: 33%;
+}
+
+.col--red {
+    background-color: rgb(220, 0, 39);
+    height: 100%;
+    width: 33%;
+}
+
+/* Lines ------------------ */
+.line--white {
+    width: 100%;
+    height: 33.3px;
+    background-color: white;
+}
+.line--blue {
+    width: 100%;
+    height: 33.3px;
+    background-color: rgb(0, 84, 162);
+}
+
+
+/* Lines END ------------------ */
+
+/* Crosses */
+/* Vertical */
+.cross__v--yellow{
+    width: 50px;
+    height: 100%;
+    background-color: rgb(225, 197, 47);
+    position: absolute;
+    left: 20%;
+}
+
+/* Horizontal */
+.cross__h--yellow{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(225, 197, 47);
+    position: absolute;
+    top: 40%;
+}
+/* Crosses----------- */
+
+/* Star Boxes */
+.box--blue{
+    width: 33%;
+    height: 55.5%;
+    background-color: rgb(0, 84, 162);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.subbox__cross--h--blue {
+    width: 33.3px;
+    height: 100%;
+    background-color: white;
+    position: absolute;
+    right: 40%;
+}
+
+.subbox__cross--v--blue {
+    width: 100%;
+    height: 33.3px;
+    background-color: white;
+    position: absolute;
+    top: 40%;
+}
+
+/* Star Boxes ----------*/
+
+
+/* Circles Start__--------- */
+.circle--red {
+    background-color: red;
+    border-radius: 100px;
+    width: 30%;
+    height: 50%;
+    margin: auto;
+}
+
+/* Circles End--------- */
